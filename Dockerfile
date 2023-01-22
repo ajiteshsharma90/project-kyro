@@ -6,6 +6,7 @@ COPY . /cosmosdb-with-fastapi
 WORKDIR /cosmosdb-with-fastapi
 
 RUN pip install --upgrade pip
+RUN pip install requirements.txt
 RUN pip install fastapi
 RUN pip install fastapi uvicorn
 RUN pip install python-dotenv
