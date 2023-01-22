@@ -6,7 +6,7 @@ COPY . /cosmosdb-with-fastapi
 WORKDIR /cosmosdb-with-fastapi
 
 RUN pip install --upgrade pip
-RUN apt-get update
+#RUN apt-get update
 RUN apt-get -y install build-essential
 #RUN pip install -r requirements.txt .
 RUN pip install fastapi
